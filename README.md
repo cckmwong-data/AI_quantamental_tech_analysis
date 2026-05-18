@@ -2,7 +2,7 @@
 
 The **"Quantimental"** approach represents the fusion of **Quantitative** and **Fundamental analysis**, combining the data-driven rigor of mathematical modeling with the deep structural insights of equity research.
 
-[This project](https://app.powerbi.com/view?r=eyJrIjoiMWRiYmE1ZGQtY2FlNi00N2EyLTllNmQtMTEwOTQyOGIxMTM5IiwidCI6IjZjMWQ0MTUyLTM5ZDAtNDRjYS04OGQ5LWI4ZDZkZGNhMDcwOCIsImMiOjEwfQ%3D%3D) serves as the foundational pillar of the strategy, providing an automated fundamental analysis framework for the "Big Four" tech leaders: **Google, Meta, Nvidia, and Tesla**. It is designed to work in synergy with [Part 2: LSTM Autoencoder Anomaly Detection](https://github.com/cckmwong-data/stock_price_anomaly), which utilizes Deep Learning to identify market mispricings through reconstruction error analysis.
+[This project](https://app.powerbi.com/view?r=eyJrIjoiYjZmOWRjNzMtYmI1ZS00MmFkLWFkYzMtZDZhM2FmNTYyZjFjIiwidCI6IjZjMWQ0MTUyLTM5ZDAtNDRjYS04OGQ5LWI4ZDZkZGNhMDcwOCIsImMiOjEwfQ%3D%3D) serves as the foundational pillar of the strategy, providing an automated fundamental analysis framework for the "Big Four" tech leaders: **Google, Meta, Nvidia, and Tesla**. It is designed to work in synergy with [Part 2: LSTM Autoencoder Anomaly Detection](https://github.com/cckmwong-data/stock_price_anomaly), which utilizes Deep Learning to identify market mispricings through reconstruction error analysis.
 
 ![Dashboard Cover](images/cover.png)
 
@@ -11,7 +11,7 @@ The **"Quantimental"** approach represents the fusion of **Quantitative** and **
 ## The Integration: Fundamentals + Technical Analysis
 Most investment tools provide either financial data or technical indicators in isolation. This project integrates both to create a high-conviction decision engine:
 
-* **[1. The Fundamental Core (This Project)](https://app.powerbi.com/view?r=eyJrIjoiMWRiYmE1ZGQtY2FlNi00N2EyLTllNmQtMTEwOTQyOGIxMTM5IiwidCI6IjZjMWQ0MTUyLTM5ZDAtNDRjYS04OGQ5LWI4ZDZkZGNhMDcwOCIsImMiOjEwfQ%3D%3D):** Determines **Intrinsic Value** using a dynamic 2-stage DCF model. It answers: *"What is this company actually worth based on cash flow?"*
+* **[1. The Fundamental Core (This Project)](https://app.powerbi.com/view?r=eyJrIjoiYjZmOWRjNzMtYmI1ZS00MmFkLWFkYzMtZDZhM2FmNTYyZjFjIiwidCI6IjZjMWQ0MTUyLTM5ZDAtNDRjYS04OGQ5LWI4ZDZkZGNhMDcwOCIsImMiOjEwfQ%3D%3D):** Determines **Intrinsic Value** using a dynamic 2-stage DCF model. It answers: *"What is this company actually worth based on cash flow?"*
 * **[2. The AI Layer (LSTM Autoencoder):](https://github.com/cckmwong-data/stock_price_anomaly)** Detects **Price Anomalies** in Tesla (TSLA) stock (2015-2025). It answers: *"Is the current price action deviating irrationally from historical patterns?"*
 
 > **Strategic Use Case:** When the Power BI model identifies a stock as **fundamentally undervalued**, and the LSTM model flags a **negative price anomaly** (high reconstruction error during a price dip), it signals a statistically significant **Mean Reversion** buying opportunity.
