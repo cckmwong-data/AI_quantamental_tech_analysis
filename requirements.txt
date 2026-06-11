@@ -1,6 +1,0 @@
-yfinance
-gspread
-pandas
-google-auth
-ta
-google-generativeai
