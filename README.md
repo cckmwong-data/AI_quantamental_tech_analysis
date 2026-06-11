@@ -1,8 +1,6 @@
 # AI-Powered Quantamental Tech Analysis
 
-The **"Quantimental"** approach represents the fusion of **Quantitative** and **Fundamental analysis**, combining the data-driven rigor of mathematical modeling with the deep structural insights of equity research.
-
-[This project](https://app.powerbi.com/view?r=eyJrIjoiYjZmOWRjNzMtYmI1ZS00MmFkLWFkYzMtZDZhM2FmNTYyZjFjIiwidCI6IjZjMWQ0MTUyLTM5ZDAtNDRjYS04OGQ5LWI4ZDZkZGNhMDcwOCIsImMiOjEwfQ%3D%3D) serves as the foundational pillar of the strategy, providing an automated fundamental analysis framework for the "Big Four" tech leaders: **Google, Meta, Nvidia, and Tesla**. It is designed to work in synergy with [Part 2: LSTM Autoencoder Anomaly Detection](https://github.com/cckmwong-data/stock_price_anomaly), which utilizes Deep Learning to identify market mispricings through reconstruction error analysis.
+[This project](https://app.powerbi.com/view?r=eyJrIjoiMmRjM2RmMGEtOTFkMi00OWY0LWFkOTctZTUxOTQyYTNkYzE3IiwidCI6IjZjMWQ0MTUyLTM5ZDAtNDRjYS04OGQ5LWI4ZDZkZGNhMDcwOCIsImMiOjEwfQ%3D%3D) analyze the tech stocks from different perspectives using **"Quantimental"** approach - the fusion of **Quantitative** and **Fundamental Analysis**, alongside **Technical Analysis** and daily analysis powered by **Artificial Intelligence**. 
 
 ![Dashboard Cover](images/cover.png)
 
