@@ -2,7 +2,7 @@
 
 [This project](https://app.powerbi.com/view?r=eyJrIjoiMmRjM2RmMGEtOTFkMi00OWY0LWFkOTctZTUxOTQyYTNkYzE3IiwidCI6IjZjMWQ0MTUyLTM5ZDAtNDRjYS04OGQ5LWI4ZDZkZGNhMDcwOCIsImMiOjEwfQ%3D%3D) analyze the tech stocks from different perspectives using **Quantimental** approach - the fusion of **Quantitative** and **Fundamental Analysis**, alongside **Technical Analysis** and daily analysis powered by **Artificial Intelligence**. 
 
-![Dashboard Cover](images/cover.png)
+![Flow](images/flow.png)
 
 ---
 
@@ -16,16 +16,15 @@ Most investment tools provide either financial data or technical indicators in i
 
 ---
 
-## Overview
-This repository focuses on the **Fundamental Core**, an end-to-end automated platform for financial data analysis. By orchestrating daily extraction of 10-K/10-Q statements (i.e. financial statements) and stock prices via Python and Google Sheets, it eliminates the "stale data" problem inherent in retail research. The dashboard is fully interactive, allowing users to stress-test target prices by adjusting Weighted Average Cost of Capital (WACC), growth rates, and risk-free assumptions in real-time.
-
----
-
 ## Key Highlights
+* **Pure Quantimental Fusion:** Successfully combining statistical machine learning (Quantitative) with macroeconomic intrinsic valuation (Fundamental) and momentum architecture (Technical).
 * **Automated ETL:** Python scripts and GitHub Actions refresh the entire financial dataset every 24 hours.
 * **Dynamic Valuation:** An interactive 2-stage DCF engine featuring a WACC vs. Terminal Growth sensitivity matrix.
 * **Real-Time Pricing:** Integration of live market data using `GOOGLEFINANCE` formulas to ensure valuation gaps are accurate to the latest market close.
+* **Advanced LLM Analytical Context:** Moves beyond generic AI prompts by feeding raw, structured Open-High-Low-Close (OHLC) data and calculated mathematical overlays (RSI/MACD) directly into **Gemini 2.5**, turning raw technical data points into clear, executive-level market summaries.
 * **Full Financial Stack:** Deep-dive modules for Income Statement, Balance Sheet, and Cash Flow (including a visual Cash Flow Bridge).
+
+![Overview](images/cover.png)
 
 ---
 
@@ -36,17 +35,22 @@ Compare **Intrinsic Value** vs. **Current Price**. Use interactive sliders to ad
 
 ![Valuation Dashboard](images/valuation.png)
 
-### 2. Income Statement & Margin Analysis
+### 2. AI & Technical Analysis
+It tracks the momentum and price boundaries through integrated Relative Strength Index (RSI), MACD, and Bollinger Bands charts. Gemini 2.5 synthesizes these live technical indicators alongside the price data to deliver an automated, actionable market narrative and an overall trading signal.
+
+![Technical Analysis](images/technical_AI.png)
+
+### 3. Income Statement & Margin Analysis
 Monitor **revenue growth** and **margin expansion**. Track how COGS, R&D, and SG&A evolve as a percentage of total revenue to identify scaling efficiency.
 
 ![Income Statement Analysis](images/IS4.png)
 
-### 3. Balance Sheet & Liquidity
+### 4. Balance Sheet & Liquidity
 Analyze **solvency** and **working capital efficiency**. This section highlights the **Cash Conversion Cycle (CCC)**, **Quick Ratio** trends, and **debt profiles**.
 
 ![Balance Sheet Charts](images/BS2.png)
 
-### 4. Cash Flow Dynamics
+### 5. Cash Flow Dynamics
 A visual **Cash Flow Bridge** identifies the specific drivers of cash movement, allowing for an "Earnings Quality" check by comparing Net Income to Free Cash Flow.
 
 ![Cash Flow Bridge](images/CF2.png)
@@ -54,11 +58,12 @@ A visual **Cash Flow Bridge** identifies the specific drivers of cash movement, 
 ---
 
 ## Skills Demonstrated
+
+✔ **Serverless Workflow Automation (CI/CD):** Configured automated **GitHub Actions** cron-jobs to manage daily execution environments, handling API calls, data pipelines, and scheduled runtimes with zero paid cloud infrastructure.
+
 ✔ **Financial Modeling:** 2-Stage **Discounted Cash Flow (DCF)**, WACC calculation, terminal value estimation, and ratio analysis (Liquidity, Solvency, Profitability).
 
-✔ **Data Engineering:** Automating ETL workflows with **Python** and **GitHub Actions**; managing cloud data pipelines via **Google Sheets API**.
-
-✔ **Business Intelligence:** Advanced **Power BI** development (DAX, dynamic parameters, and user-centric UX design).
+✔ **Advanced LLM Orchestration:** Developed programmatic context injection for **Gemini 2.5**, moving beyond basic prompting to feed raw daily market data (OHLC) and mathematical technical indicators (RSI, MACD, Bollinger Bands) into an AI to generate structural, human-readable market narratives.
 
 ✔ **System Architecture:** Designing a synchronized, multi-source data refresh architecture.
 
